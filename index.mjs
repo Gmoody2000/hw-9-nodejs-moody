@@ -1,5 +1,8 @@
 import inquirer from 'inquirer';
 
+import fs from 'fs';
+
+
 const questions = [
     {
         type: 'input',
